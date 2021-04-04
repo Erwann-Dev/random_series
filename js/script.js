@@ -8,6 +8,7 @@ function doctor_random(){
     }
     
     $.ajax(settings).done(function (response) {
+      console.log(settings.url)
       season_alea = (Math.floor(Math.random() * response.seasons.length)); 
       console.log("Saison : "+season_alea);
       console.log(response.seasons);
@@ -22,6 +23,7 @@ function doctor_random(){
       "method": "GET"
     }
     $.ajax(settings_2).done(function (response) {
+      console.log(settings_2.url)
       episode_alea = (Math.floor(Math.random() * response.episodes.length)+1); 
       console.log("Episode : "+episode_alea);
       console.log(response.episodes);
@@ -37,6 +39,7 @@ function doctor_random(){
     }
 
     $.ajax(settings_3).done(function (response) {
+      console.log(settings_3.url)
       console.log(response.name);
       resultat = response.name
     });
@@ -67,6 +70,7 @@ function universe_random(){
     }
     
     $.ajax(settings).done(function (response) {
+      console.log(settings.url)
       season_alea = (Math.floor(Math.random() * response.seasons.length)); 
       console.log("Saison : "+season_alea);
       console.log(response.seasons);
@@ -81,6 +85,7 @@ function universe_random(){
       "method": "GET"
     }
     $.ajax(settings_2).done(function (response) {
+      console.log(settings_2.url)
       episode_alea = (Math.floor(Math.random() * response.episodes.length)+1); 
       console.log("Episode : "+episode_alea);
       console.log(response.episodes);
@@ -96,6 +101,7 @@ function universe_random(){
     }
 
     $.ajax(settings_3).done(function (response) {
+      console.log(settings_3.url)
       console.log(response.name);
       resultat = response.name
     });
@@ -126,6 +132,7 @@ function atlantis_random(){
     }
     
     $.ajax(settings).done(function (response) {
+      console.log(settings.url)
       season_alea = (Math.floor(Math.random() * response.seasons.length)); 
       console.log("Saison : "+season_alea);
       console.log(response.seasons);
@@ -140,6 +147,7 @@ function atlantis_random(){
       "method": "GET"
     }
     $.ajax(settings_2).done(function (response) {
+      console.log(settings_2.url)
       episode_alea = (Math.floor(Math.random() * response.episodes.length)+1); 
       console.log("Episode : "+episode_alea);
       console.log(response.episodes);
@@ -155,6 +163,7 @@ function atlantis_random(){
     }
 
     $.ajax(settings_3).done(function (response) {
+      console.log(settings_3.url)
       console.log(response.name);
       resultat = response.name
     });
@@ -185,6 +194,7 @@ function sg_1_random(){
     }
     
     $.ajax(settings).done(function (response) {
+      console.log(settings.url)
       season_alea = (Math.floor(Math.random() * response.seasons.length)); 
       console.log("Saison : "+season_alea);
       console.log(response.seasons);
@@ -199,6 +209,7 @@ function sg_1_random(){
       "method": "GET"
     }
     $.ajax(settings_2).done(function (response) {
+      console.log(settings_2.url)
       episode_alea = (Math.floor(Math.random() * response.episodes.length)+1); 
       console.log("Episode : "+episode_alea);
       console.log(response.episodes);
@@ -214,6 +225,7 @@ function sg_1_random(){
     }
 
     $.ajax(settings_3).done(function (response) {
+      console.log(settings_3.url)
       console.log(response.name);
       resultat = response.name
     });
