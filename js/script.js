@@ -1,10 +1,11 @@
 function doctor_random(){
+  var key = "3a1dd21b1318e5d4bd73b5b9b3bd7e74";
   reset()
   var id = 57243;
   function season_random(){
     var settings = {
       async: false,
-      "url": "https://api.themoviedb.org/3/tv/"+id+"?api_key=3a1dd21b1318e5d4bd73b5b9b3bd7e74",
+      "url": "https://api.themoviedb.org/3/tv/"+id+"?api_key="+key,
       "method": "GET"
     }
     
@@ -20,7 +21,7 @@ function doctor_random(){
   function episode_random(season_alea){
     var settings_2 = {
       async: false,
-      "url": "https://api.themoviedb.org/3/tv/"+id+"/season/"+season_alea+"?api_key=3a1dd21b1318e5d4bd73b5b9b3bd7e74",
+      "url": "https://api.themoviedb.org/3/tv/"+id+"/season/"+season_alea+"?api_key="+key,
       "method": "GET"
     }
     $.ajax(settings_2).done(function (response) {
@@ -35,7 +36,7 @@ function doctor_random(){
   function result(season_alea,episode_alea){
     var settings_3 = {
       async: false,
-      "url": "https://api.themoviedb.org/3/tv/"+id+"/season/"+season_alea+"/episode/"+episode_alea+"?api_key=3a1dd21b1318e5d4bd73b5b9b3bd7e74",
+      "url": "https://api.themoviedb.org/3/tv/"+id+"/season/"+season_alea+"/episode/"+episode_alea+"?api_key="+key,
       "method": "GET"
     }
 
@@ -62,12 +63,13 @@ function doctor_random(){
 }
 
 function universe_random(){
+  var key = "3a1dd21b1318e5d4bd73b5b9b3bd7e74";
   reset()
   var id = 5148;
   function season_random(){
     var settings = {
       async: false,
-      "url": "https://api.themoviedb.org/3/tv/"+id+"?api_key=3a1dd21b1318e5d4bd73b5b9b3bd7e74",
+      "url": "https://api.themoviedb.org/3/tv/"+id+"?api_key="+key,
       "method": "GET"
     }
     
@@ -83,7 +85,7 @@ function universe_random(){
   function episode_random(season_alea){
     var settings_2 = {
       async: false,
-      "url": "https://api.themoviedb.org/3/tv/"+id+"/season/"+season_alea+"?api_key=3a1dd21b1318e5d4bd73b5b9b3bd7e74",
+      "url": "https://api.themoviedb.org/3/tv/"+id+"/season/"+season_alea+"?api_key="+key,
       "method": "GET"
     }
     $.ajax(settings_2).done(function (response) {
@@ -98,7 +100,7 @@ function universe_random(){
   function result(season_alea,episode_alea){
     var settings_3 = {
       async: false,
-      "url": "https://api.themoviedb.org/3/tv/"+id+"/season/"+season_alea+"/episode/"+episode_alea+"?api_key=3a1dd21b1318e5d4bd73b5b9b3bd7e74",
+      "url": "https://api.themoviedb.org/3/tv/"+id+"/season/"+season_alea+"/episode/"+episode_alea+"?api_key="+key,
       "method": "GET"
     }
 
@@ -125,12 +127,13 @@ function universe_random(){
 }
 
 function atlantis_random(){
+  var key = "3a1dd21b1318e5d4bd73b5b9b3bd7e74";
   reset()
   var id = 2290;
   function season_random(){
     var settings = {
       async: false,
-      "url": "https://api.themoviedb.org/3/tv/"+id+"?api_key=3a1dd21b1318e5d4bd73b5b9b3bd7e74",
+      "url": "https://api.themoviedb.org/3/tv/"+id+"?api_key="+key,
       "method": "GET"
     }
     
@@ -146,7 +149,7 @@ function atlantis_random(){
   function episode_random(season_alea){
     var settings_2 = {
       async: false,
-      "url": "https://api.themoviedb.org/3/tv/"+id+"/season/"+season_alea+"?api_key=3a1dd21b1318e5d4bd73b5b9b3bd7e74",
+      "url": "https://api.themoviedb.org/3/tv/"+id+"/season/"+season_alea+"?api_key="+key,
       "method": "GET"
     }
     $.ajax(settings_2).done(function (response) {
@@ -161,7 +164,7 @@ function atlantis_random(){
   function result(season_alea,episode_alea){
     var settings_3 = {
       async: false,
-      "url": "https://api.themoviedb.org/3/tv/"+id+"/season/"+season_alea+"/episode/"+episode_alea+"?api_key=3a1dd21b1318e5d4bd73b5b9b3bd7e74",
+      "url": "https://api.themoviedb.org/3/tv/"+id+"/season/"+season_alea+"/episode/"+episode_alea+"?api_key="+key,
       "method": "GET"
     }
 
@@ -188,12 +191,13 @@ function atlantis_random(){
 }
 
 function sg_1_random(){
+  var key = "3a1dd21b1318e5d4bd73b5b9b3bd7e74";
   reset()
   var id = 4629;
   function season_random(){
     var settings = {
       async: false,
-      "url": "https://api.themoviedb.org/3/tv/"+id+"?api_key=3a1dd21b1318e5d4bd73b5b9b3bd7e74",
+      "url": "https://api.themoviedb.org/3/tv/"+id+"?api_key="+key,
       "method": "GET"
     }
     
@@ -209,7 +213,7 @@ function sg_1_random(){
   function episode_random(season_alea){
     var settings_2 = {
       async: false,
-      "url": "https://api.themoviedb.org/3/tv/"+id+"/season/"+season_alea+"?api_key=3a1dd21b1318e5d4bd73b5b9b3bd7e74",
+      "url": "https://api.themoviedb.org/3/tv/"+id+"/season/"+season_alea+"?api_key="+key,
       "method": "GET"
     }
     $.ajax(settings_2).done(function (response) {
@@ -224,7 +228,7 @@ function sg_1_random(){
   function result(season_alea,episode_alea){
     var settings_3 = {
       async: false,
-      "url": "https://api.themoviedb.org/3/tv/"+id+"/season/"+season_alea+"/episode/"+episode_alea+"?api_key=3a1dd21b1318e5d4bd73b5b9b3bd7e74",
+      "url": "https://api.themoviedb.org/3/tv/"+id+"/season/"+season_alea+"/episode/"+episode_alea+"?api_key="+key,
       "method": "GET"
     }
 
