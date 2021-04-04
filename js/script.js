@@ -1,4 +1,5 @@
 function doctor_random(){
+  reset()
   var id = 57243;
   function season_random(){
     var settings = {
@@ -61,6 +62,7 @@ function doctor_random(){
 }
 
 function universe_random(){
+  reset()
   var id = 5148;
   function season_random(){
     var settings = {
@@ -123,6 +125,7 @@ function universe_random(){
 }
 
 function atlantis_random(){
+  reset()
   var id = 2290;
   function season_random(){
     var settings = {
@@ -185,6 +188,7 @@ function atlantis_random(){
 }
 
 function sg_1_random(){
+  reset()
   var id = 4629;
   function season_random(){
     var settings = {
