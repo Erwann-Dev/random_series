@@ -21,15 +21,15 @@
     <p class="Serie"></p>
     </br>
     <p class ="custom">Custom ID from <a href="https://www.themoviedb.org/">themoviedb</a>
-    <input type="text" id="custom_id" name="custom"></p>
+    <input type="text" id="custom_id" name="custom_id"></p>
     </br></br>
-    <input type="button" name="submit" value="Doctor Who" onclick="doctor_random()">
-    <input type="button" name="submit" value="Stargate Universe" onclick="universe_random()">
+    <input type="button" name="submit" value="Doctor Who" onclick="serie_random(57243)">
+    <input type="button" name="submit" value="Stargate Universe" onclick="serie_random(5148)">
     <input type="button" name="submit" value="Random" onclick="generate()">
-    <input type="button" name="submit" value="Stargate Atlantis" onclick="atlantis_random()">
-    <input type="button" name="submit" value="Stargate SG-1" onclick="sg_1_random()">
+    <input type="button" name="submit" value="Stargate Atlantis" onclick="serie_random(2290)">
+    <input type="button" name="submit" value="Stargate SG-1" onclick="serie_random(4629)">
     </br></br>
-    <input type="button" name="submit" value="Custom Serie" onclick="custom_random()">
+    <input type="button" name="submit" value="Custom Serie" onclick="serie_random(custom_id.value)">
     </br></br>
     <input type="button" name="submit" value="Reset" onclick="reset()">
   </div>
